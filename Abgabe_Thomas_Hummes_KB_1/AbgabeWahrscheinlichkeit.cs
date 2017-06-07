@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +21,20 @@ namespace Extantions
 
             return x[0].CompareTo(value) == 0;
         }
+
+
+        public static double BerechnungWahrschienlcihkeit<K>(this Dictionary<string, double> l)
+        {
+            double sumAll =l.Sum(x => x. Value);
+            List<int> Relevaz = new List<int> { };
+
+
+
+            return sumAll;
+        }
+
+        
+
 
         public static void Bubblesort<T>(this IList<T> x) where T : IComparable
         {
