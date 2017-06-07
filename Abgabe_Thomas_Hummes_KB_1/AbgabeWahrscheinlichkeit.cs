@@ -7,7 +7,42 @@ using System.Threading.Tasks;
 
 namespace Extantions
 {
-    public static class  Abgabe_Wahrscheinlichkeit
+   /* public class Dictionary
+    {
+        private string _key;
+        private double _rel;
+        private double _wahrsch;
+
+        public Dictionary()
+        {
+        }
+
+        public Dictionary(string key, double rel, double wahrsch)
+        {
+            Key = key;
+            Rel = rel;
+            Wahrsch = wahrsch;
+        }
+
+        public string Key
+        {
+            get { return _key; }
+            set { _key = value; }
+        }
+
+        public double Rel
+        {
+            get { return _rel; }
+            set { _rel = value; }
+        }
+
+        public double Wahrsch
+        {
+            get { return _wahrsch; }
+            set { _wahrsch = value; }
+        }
+        */
+        public static class  Abgabe_Wahrscheinlichkeit
     {
         public static T First<T>(this IList<T> x) // this List nur mit static 
         {
@@ -23,13 +58,17 @@ namespace Extantions
         }
 
 
-        public static double BerechnungWahrschienlcihkeit<K>(this Dictionary<string, double> l)
+        public static double BerechnungWahrscheinlichkeit<K>(this Dictionary<string, double> l)
         {
             double sumAll =l.Sum(x => x. Value);
-            List<int> Relevaz = new List<int> { };
+            List<double> relativList = new List<double> { };
+          foreach (KeyValuePair<string, double> k in l)
+            {
+                relativList = sumAll/k; //-> Double Wert des einzelen key eintrags
+            }
 
 
-
+            // Debug: Liste ist leer;
             return sumAll;
         }
 
