@@ -1,6 +1,0 @@
-C:\Users\kbeck\OneDrive\Dokumente\ShaderAbgabe\Abgabe_Thomas_Hummes_KB_1\bin\Debug\Abgabe_Thomas_Hummes_KB_1.exe.config
-C:\Users\kbeck\OneDrive\Dokumente\ShaderAbgabe\Abgabe_Thomas_Hummes_KB_1\bin\Debug\Abgabe_Thomas_Hummes_KB_1.exe
-C:\Users\kbeck\OneDrive\Dokumente\ShaderAbgabe\Abgabe_Thomas_Hummes_KB_1\bin\Debug\Abgabe_Thomas_Hummes_KB_1.pdb
-C:\Users\kbeck\OneDrive\Dokumente\ShaderAbgabe\Abgabe_Thomas_Hummes_KB_1\obj\Debug\Abgabe_Thomas_Hummes_KB_1.csprojResolveAssemblyReference.cache
-C:\Users\kbeck\OneDrive\Dokumente\ShaderAbgabe\Abgabe_Thomas_Hummes_KB_1\obj\Debug\Abgabe_Thomas_Hummes_KB_1.exe
-C:\Users\kbeck\OneDrive\Dokumente\ShaderAbgabe\Abgabe_Thomas_Hummes_KB_1\obj\Debug\Abgabe_Thomas_Hummes_KB_1.pdb
